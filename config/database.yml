@@ -20,6 +20,10 @@ default: &default
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: <%= ENV.fetch("DB_USERNAME") {"restore"} %>
+  password: <%= ENV.fetch("DB_PASSWORD") {"restore"} %> 
+  # host: <%= ENV.fetch("HOST") { "localhost:3000" } %>
+  port: 5432
 
 development:
   <<: *default
@@ -82,5 +86,3 @@ test:
 production:
   <<: *default
   database: restore_api_production
-  username: restore_api
-  password: <%= ENV['RESTORE_API_DATABASE_PASSWORD'] %>
