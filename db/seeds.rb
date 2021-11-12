@@ -15,7 +15,7 @@ Product.create!([
 			Price: 20000,
 			PictureUrl: "/images/products/sb-ang1.png",
 			Brand: "Angular",
-			Type: "Boards",
+			ProductType: "Boards",
 			QuantityInStock: 100
 	},
 	new Product
@@ -25,29 +25,29 @@ Product.create!([
 			Price: 15000,
 			PictureUrl: "/images/products/sb-ang2.png",
 			Brand: "Angular",
-			Type: "Boards",
+			ProductType: "Boards",
 			QuantityInStock: 100
 	},
 	new Product
 	{
-			Name: "Core Board Speed Rush 3",
+			Name: "Rails Board Speed Rush 3",
 			Description =
 					"Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
 			Price: 18000,
 			PictureUrl: "/images/products/sb-core1.png",
-			Brand: "NetCore",
-			Type: "Boards",
+			Brand: "Rails",
+			ProductType: "Boards",
 			QuantityInStock: 100
 	},
 	new Product
 	{
-			Name: "Net Core Super Board",
+			Name: "Net Rails Super Board",
 			Description =
 					"Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
 			Price: 30000,
 			PictureUrl: "/images/products/sb-core2.png",
-			Brand: "NetCore",
-			Type: "Boards",
+			Brand: "Rails",
+			ProductType: "Boards",
 			QuantityInStock: 100
 	},
 	new Product
@@ -58,29 +58,29 @@ Product.create!([
 			Price: 25000,
 			PictureUrl: "/images/products/sb-react1.png",
 			Brand: "React",
-			Type: "Boards",
+			ProductType: "Boards",
 			QuantityInStock: 100
 	},
 	new Product
 	{
-			Name: "Typescript Entry Board",
+			Name: "ProductTypescript Entry Board",
 			Description =
 					"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
 			Price: 12000,
 			PictureUrl: "/images/products/sb-ts1.png",
 			Brand: "TypeScript",
-			Type: "Boards",
+			ProductType: "Boards",
 			QuantityInStock: 100
 	},
 	new Product
 	{
-			Name: "Core Blue Hat",
+			Name: "Rails Blue Hat",
 			Description =
 					"Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
 			Price: 1000,
 			PictureUrl: "/images/products/hat-core1.png",
-			Brand: "NetCore",
-			Type: "Hats",
+			Brand: "Rails",
+			ProductType: "Hats",
 			QuantityInStock: 100
 	},
 	new Product
@@ -91,7 +91,7 @@ Product.create!([
 			Price: 8000,
 			PictureUrl: "/images/products/hat-react1.png",
 			Brand: "React",
-			Type: "Hats",
+			ProductType: "Hats",
 			QuantityInStock: 100
 	},
 	new Product
@@ -102,7 +102,7 @@ Product.create!([
 			Price: 1500,
 			PictureUrl: "/images/products/hat-react2.png",
 			Brand: "React",
-			Type: "Hats",
+			ProductType: "Hats",
 			QuantityInStock: 100
 	},
 	new Product
@@ -113,7 +113,7 @@ Product.create!([
 			Price: 1800,
 			PictureUrl: "/images/products/glove-code1.png",
 			Brand: "VS Code",
-			Type: "Gloves",
+			ProductType: "Gloves",
 			QuantityInStock: 100
 	},
 	new Product
@@ -124,7 +124,7 @@ Product.create!([
 			Price: 1500,
 			PictureUrl: "/images/products/glove-code2.png",
 			Brand: "VS Code",
-			Type: "Gloves",
+			ProductType: "Gloves",
 			QuantityInStock: 100
 	},
 	new Product
@@ -135,7 +135,7 @@ Product.create!([
 			Price: 1600,
 			PictureUrl: "/images/products/glove-react1.png",
 			Brand: "React",
-			Type: "Gloves",
+			ProductType: "Gloves",
 			QuantityInStock: 100
 	},
 	new Product
@@ -146,7 +146,7 @@ Product.create!([
 			Price: 1400,
 			PictureUrl: "/images/products/glove-react2.png",
 			Brand: "React",
-			Type: "Gloves",
+			ProductType: "Gloves",
 			QuantityInStock: 100
 	},
 	new Product
@@ -157,29 +157,29 @@ Product.create!([
 			Price: 25000,
 			PictureUrl: "/images/products/boot-redis1.png",
 			Brand: "Redis",
-			Type: "Boots",
+			ProductType: "Boots",
 			QuantityInStock: 100
 	},
 	new Product
 	{
-			Name: "Core Red Boots",
+			Name: "Rails Red Boots",
 			Description =
 					"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
 			Price: 18999,
 			PictureUrl: "/images/products/boot-core2.png",
-			Brand: "NetCore",
-			Type: "Boots",
+			Brand: "Rails",
+			ProductType: "Boots",
 			QuantityInStock: 100
 	},
 	new Product
 	{
-			Name: "Core Purple Boots",
+			Name: "Rails Purple Boots",
 			Description =
 					"Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
 			Price: 19999,
 			PictureUrl: "/images/products/boot-core1.png",
-			Brand: "NetCore",
-			Type: "Boots",
+			Brand: "Rails",
+			ProductType: "Boots",
 			QuantityInStock: 100
 	},
 	new Product
@@ -189,7 +189,7 @@ Product.create!([
 			Price: 15000,
 			PictureUrl: "/images/products/boot-ang2.png",
 			Brand: "Angular",
-			Type: "Boots",
+			ProductType: "Boots",
 			QuantityInStock: 100
 	},
 	new Product
@@ -200,7 +200,7 @@ Product.create!([
 			Price: 18000,
 			PictureUrl: "/images/products/boot-ang1.png",
 			Brand: "Angular",
-			Type: "Boots",
+			ProductType: "Boots",
 			QuantityInStock: 100
 	}])
 
